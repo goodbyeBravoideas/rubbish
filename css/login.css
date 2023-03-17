@@ -1,0 +1,103 @@
+html,
+body {
+    background-color: #272E40;
+    height: 100%;
+}
+
+.body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-left {
+    padding-left: 94px;
+    width: 500px;
+    height: 674px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 50px 0px 0px 50px;
+    opacity: 1;
+}
+
+.login-right {
+    width: 500px;
+    height: 674px;
+    background: #161B29 0% 0% no-repeat padding-box;
+    border-radius: 0px 50px 50px 0px;
+    opacity: 1;
+}
+
+.title {
+    margin-top: 110px;
+    color: #161B29;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.inputField {
+    background: #F2F4F8 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    width: 313px;
+    height: 50px;
+    padding-left: 17px;
+    outline: none;
+    border-width: 0px;
+}
+
+
+.inputField:focus {
+    border: 1px solid #E07F44;
+}
+
+.hover:hover {
+    opacity: 0.8;
+}
+
+.a1 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.a2 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.a3 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.a4 {
+    width: 313px;
+    height: 50px;
+    background: #F27932 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #34FFC81A;
+    border-radius: 1000px;
+    border-width: 0px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.a5 {
+    color: #F27932;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.a6 {
+    color: #5D657B;
+    font-size: 18px;
+    font-weight: bolder;
+}
